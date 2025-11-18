@@ -14,11 +14,11 @@ type Product = {
   title: string;
   price: number;
 };
-
 const item: Product = {
   title: "Laptop",
   price: 75000,
 };
+
 ---
 
 2.keyof typescript এর একটা পাওয়ারফুল ইউটিলিটি কীওয়ার্ড।এটা কোনো অবজেক্ট টাইপ থেকে তার key এর ইউনিয়ন তৈরি করে।যেমন:
