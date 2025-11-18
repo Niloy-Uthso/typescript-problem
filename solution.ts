@@ -137,7 +137,7 @@ function calculateTotalPrice(products: Product[]): number {
     })
     .reduce((total, curr) => total + curr, 0);
 }
-
+// comment djf
  
 
  
